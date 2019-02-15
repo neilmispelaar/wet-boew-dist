@@ -1,7 +1,7 @@
 /*!
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
- * v4.0.30-development - 2019-02-12
+ * v4.0.30-development - 2019-02-15
  *
  *//*! Modernizr (Custom Build) | MIT & BSD */
 /* Modernizr (Custom Build) | MIT & BSD
@@ -1834,7 +1834,7 @@ function visible( element ) {
 		.length;
 }
 
-$.extend( $.expr[ ":" ], {
+$.extend( $.expr.pseudos, {
 	data: $.expr.createPseudo ? $.expr.createPseudo( function( dataName ) {
 		return function( elem ) {
 			return !!$.data( elem, dataName );
