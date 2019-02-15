@@ -8457,7 +8457,7 @@ $document.on( "timerpoke.wb " + initEvent, selector, init );
 
 $window.on( "resize", onResize );
 
-$document.on( "ready", onResize );
+$document.ready( onResize );
 
 $document.on( "ajax-fetched.wb " + templateLoadedEvent, selector, function( event ) {
 	var $this = $( this );
