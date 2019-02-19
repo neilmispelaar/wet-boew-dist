@@ -1,7 +1,7 @@
 /*!
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
- * v4.0.30-development - 2019-02-15
+ * v4.0.30-development - 2019-02-19
  *
  *//*! Modernizr (Custom Build) | MIT & BSD */
 /* Modernizr (Custom Build) | MIT & BSD
@@ -8147,7 +8147,7 @@ var componentName = "wb-mltmd",
 				json = captionElement.attr( "data" )
 					.replace( /(begin|dur|end)/g, "\"$1\"" )
 					.replace( /'/g, "\"" );
-				json = $.parseJSON( json );
+				json = JSON.parse( json );
 				begin = parseTime( json.begin );
 				end = json.end !== undef ?
 					parseTime( json.end ) :
