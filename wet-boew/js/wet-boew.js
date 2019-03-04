@@ -1,11 +1,7 @@
 /*!
  * Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
  * wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html
-<<<<<<< HEAD
  * v4.0.30-development - 2019-03-04
-=======
- * v4.0.30-development - 2019-02-19
->>>>>>> 5ab0e80141c486485396994bbda56c3b911bf61d
  *
  *//*! Modernizr (Custom Build) | MIT & BSD */
 /* Modernizr (Custom Build) | MIT & BSD
